@@ -20,7 +20,7 @@ exports = module.exports = {
    * @param {Object} gamestate ~ Represents the state of the game.
    * @return {Number}
    */
-  bet: function (gamestate) {
+  bet (gamestate) {
     console.log("Playing game", gamestate.tournamentId);
 
     /**
